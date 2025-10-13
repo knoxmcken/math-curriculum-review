@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Common Core State Standards for Mathematics",
+    "abbreviation": "CCSSM",
+    "version": "2010",
+    "source": "http://www.corestandards.org/Math/"
+  },
+  "mathematical_practices": [
+    {
+      "id": "MP1",
+      "title": "Make sense of problems and persevere in solving them",
+      "description": "Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution."
+    },
+    {
+      "id": "MP2",
+      "title": "Reason abstractly and quantitatively",
+      "description": "Mathematically proficient students make sense of quantities and their relationships in problem situations."
+    },
+    {
+      "id": "MP3",
+      "title": "Construct viable arguments and critique the reasoning of others",
+      "description": "Mathematically proficient students understand and use stated assumptions, definitions, and previously established results in constructing arguments."
+    },
+    {
+      "id": "MP4",
+      "title": "Model with mathematics",
+      "description": "Mathematically proficient students can apply the mathematics they know to solve problems arising in everyday life, society, and the workplace."
+    },
+    {
+      "id": "MP5",
+      "title": "Use appropriate tools strategically",
+      "description": "Mathematically proficient students consider the available tools when solving a mathematical problem."
+    },
+    {
+      "id": "MP6",
+      "title": "Attend to precision",
+      "description": "Mathematically proficient students try to communicate precisely to others and use clear definitions in discussion with others and in their own reasoning."
+    },
+    {
+      "id": "MP7",
+      "title": "Look for and make use of structure",
+      "description": "Mathematically proficient students look closely to discern a pattern or structure."
+    },
+    {
+      "id": "MP8",
+      "title": "Look for and express regularity in repeated reasoning",
+      "description": "Mathematically proficient students notice if calculations are repeated, and look both for general methods and for shortcuts."
+    }
+  ],
+  "grade_levels": {
+    "K": {
+      "domains": {
+        "CC": {
+          "name": "Counting and Cardinality",
+          "standards": [
+            {
+              "id": "K.CC.A.1",
+              "description": "Count to 100 by ones and by tens."
+            },
+            {
+              "id": "K.CC.A.2",
+              "description": "Count forward beginning from a given number within the known sequence."
+            }
+          ]
+        },
+        "OA": {
+          "name": "Operations and Algebraic Thinking",
+          "standards": [
+            {
+              "id": "K.OA.A.1",
+              "description": "Represent addition and subtraction with objects, fingers, mental images, drawings, sounds, acting out situations, verbal explanations, expressions, or equations."
+            }
+          ]
+        }
+      }
+    },
+    "1": {
+      "domains": {
+        "OA": {
+          "name": "Operations and Algebraic Thinking",
+          "standards": [
+            {
+              "id": "1.OA.A.1",
+              "description": "Use addition and subtraction within 20 to solve word problems involving situations of adding to, taking from, putting together, taking apart, and comparing."
+            }
+          ]
+        },
+        "NBT": {
+          "name": "Number and Operations in Base Ten",
+          "standards": [
+            {
+              "id": "1.NBT.A.1",
+              "description": "Count to 120, starting at any number less than 120."
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "domains": {
+        "OA": {
+          "name": "Operations and Algebraic Thinking",
+          "standards": [
+            {
+              "id": "2.OA.A.1",
+              "description": "Use addition and subtraction within 100 to solve one- and two-step word problems."
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "domains": {
+        "OA": {
+          "name": "Operations and Algebraic Thinking",
+          "standards": [
+            {
+              "id": "3.OA.A.1",
+              "description": "Interpret products of whole numbers."
+            },
+            {
+              "id": "3.OA.A.2",
+              "description": "Interpret whole-number quotients of whole numbers."
+            }
+          ]
+        },
+        "NF": {
+          "name": "Number and Operations—Fractions",
+          "standards": [
+            {
+              "id": "3.NF.A.1",
+              "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "note": "This is a simplified sample structure. For production use, include all grade levels (K-12) and all standards."
+}
