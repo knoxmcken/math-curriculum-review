@@ -50,6 +50,27 @@ This is a workspace for reviewing mathematics curriculum content, materials, and
 - Agents can be configured to perform various curriculum review tasks
 - Use environment variables for API keys and sensitive configuration
 
+### Creating Agents - IMPORTANT
+
+When the user asks you to create an agent:
+
+1. **First, check the `references/` directory** - Review the Jupyter notebooks (L3-L7) for examples and patterns
+2. **Use the reference examples as your primary guide** - Follow the patterns, structures, and best practices demonstrated in the notebooks
+3. **If references are insufficient** - Only then search Google, use external resources, or rely on your general knowledge
+4. **Reference notebooks contain**:
+   - Agent role definitions and goal setting
+   - Task configuration patterns
+   - Tool integration examples
+   - Crew collaboration patterns
+   - Best practices for agent coordination
+
+The reference notebooks are located at:
+- `references/L3_customer_support.ipynb` - Basic agent setup and cooperation
+- `references/L4_tools_customer_outreach.ipynb` - Tool integration
+- `references/L5_tasks_event_planning.ipynb` - Task management
+- `references/L6_collaboration_financial_analysis.ipynb` - Agent collaboration
+- `references/L7_job_application_crew.ipynb` - Complete multi-agent systems
+
 ### Code Style
 
 - Follow PEP 8 Python style guidelines
