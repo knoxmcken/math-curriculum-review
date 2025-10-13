@@ -1,0 +1,73 @@
+# Grade 3 Mathematics Curriculum - Sample
+
+## Unit 1: Multiplication and Division
+
+### Lesson 1: Understanding Multiplication
+
+**Objective:** Students will understand multiplication as repeated addition and equal groups.
+
+**Content:**
+Multiplication is a way to add the same number multiple times. For example:
+- 3 × 4 means "3 groups of 4"
+- This is the same as 4 + 4 + 4 = 12
+
+**Practice Problems:**
+1. Draw 5 groups of 3 objects
+2. Write the multiplication sentence: 5 × 3 = ___
+3. Solve: 4 × 6 = ___
+
+### Lesson 2: Division as Fair Sharing
+
+**Objective:** Students will understand division as splitting into equal groups.
+
+**Content:**
+Division helps us share things fairly. If we have 12 cookies and want to share them equally among 4 friends:
+- 12 ÷ 4 = 3
+- Each friend gets 3 cookies
+
+**Practice Problems:**
+1. 15 ÷ 3 = ___
+2. Share 20 pencils equally among 5 students. How many does each get?
+
+## Unit 2: Fractions
+
+### Lesson 3: Introduction to Fractions
+
+**Objective:** Students will understand fractions as parts of a whole.
+
+**Content:**
+A fraction represents part of a whole. The fraction 1/4 means:
+- One part out of four equal parts
+- If you cut a pizza into 4 equal slices, each slice is 1/4 of the pizza
+
+**Visual:**
+[A circle divided into 4 equal parts, with 1 part shaded]
+
+**Practice Problems:**
+1. What fraction of the shape is shaded? [Image shows 2 out of 8 parts shaded]
+2. Draw a rectangle and shade 3/6 of it
+3. Which is larger: 1/2 or 1/4?
+
+### Assessment
+
+**Formative Assessment:**
+- Exit ticket: Solve 7 × 8 and explain your thinking
+- Draw and label a fraction model for 2/3
+
+**Summative Assessment:**
+- Unit test covering multiplication, division, and fractions
+- Performance task: Create a fair sharing story problem
+
+## Standards Addressed
+
+This curriculum addresses the following Common Core Standards:
+- 3.OA.A.1: Interpret products of whole numbers
+- 3.OA.A.2: Interpret whole-number quotients of whole numbers
+- 3.NF.A.1: Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts
+
+## Teaching Notes
+
+- Use manipulatives for hands-on learning
+- Provide visual models for all concepts
+- Connect to real-world situations
+- Differentiate for diverse learners
