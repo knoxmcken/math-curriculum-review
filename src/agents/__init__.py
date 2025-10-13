@@ -12,6 +12,10 @@ from .pedagogical_analyst import (
     create_pedagogical_analyst_agent,
     pedagogical_analyst_agent
 )
+from .equity_reviewer import (
+    create_equity_reviewer_agent,
+    equity_reviewer_agent
+)
 
 __all__ = [
     'create_grade_level_checker_agent',
@@ -20,4 +24,6 @@ __all__ = [
     'math_practices_evaluator_agent',
     'create_pedagogical_analyst_agent',
     'pedagogical_analyst_agent',
+    'create_equity_reviewer_agent',
+    'equity_reviewer_agent',
 ]
