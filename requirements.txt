@@ -1,0 +1,9 @@
+# CrewAI and related packages (latest versions)
+crewai
+crewai-tools
+langchain-community
+
+# Additional dependencies
+python-dotenv
+ipython
+pydantic
