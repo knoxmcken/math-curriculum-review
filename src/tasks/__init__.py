@@ -5,6 +5,7 @@ from .math_practices_task import create_math_practices_task
 from .pedagogical_analysis_task import create_pedagogical_analysis_task
 from .equity_review_task import create_equity_review_task
 from .assessment_evaluation_task import create_assessment_evaluation_task
+from .comprehensive_review_task import create_comprehensive_review_task
 
 __all__ = [
     'create_grade_level_check_task',
@@ -12,4 +13,5 @@ __all__ = [
     'create_pedagogical_analysis_task',
     'create_equity_review_task',
     'create_assessment_evaluation_task',
+    'create_comprehensive_review_task',
 ]

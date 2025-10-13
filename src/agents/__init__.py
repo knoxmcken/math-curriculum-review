@@ -36,6 +36,12 @@ from .inclusion_equity_specialist import (
     inclusion_equity_specialist_agent
 )
 
+# Top-Level Orchestrator (Level 1 - Orchestrates everything)
+from .curriculum_review_manager import (
+    create_curriculum_review_manager_agent,
+    curriculum_review_manager_agent
+)
+
 __all__ = [
     # Leaf Agents
     'create_grade_level_checker_agent',
@@ -55,4 +61,7 @@ __all__ = [
     'teaching_learning_reviewer_agent',
     'create_inclusion_equity_specialist_agent',
     'inclusion_equity_specialist_agent',
+    # Top-Level Orchestrator
+    'create_curriculum_review_manager_agent',
+    'curriculum_review_manager_agent',
 ]
