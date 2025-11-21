@@ -4,6 +4,7 @@ Searches for university programs, summarizes curricula, and validates the final 
 """
 
 import sys
+import click
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool
 
@@ -142,17 +143,11 @@ def create_university_research_crew(country: str, program: str):
     return crew
 
 
-def main():
+@click.command()
+@click.option('--country', default='United Kingdom', help='The country to research universities in.')
+@click.option('--program', default='BSc Mathematics', help='The program to research.')
+def main(country, program):
     """Main function to run the university research crew"""
-    
-    # Parse command line arguments
-    if len(sys.argv) != 3:
-        print("Usage: python university_research_crew.py <country> <program>")
-        print('Example: python university_research_crew.py "United Kingdom" "BSc Mathematics"')
-        sys.exit(1)
-    
-    country = sys.argv[1]
-    program = sys.argv[2]
     
     print(f"\n{'='*80}")
     print(f"University Program Research Crew")
