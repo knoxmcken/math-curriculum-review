@@ -6,7 +6,8 @@ Searches for university programs, summarizes curricula, and validates the final 
 import sys
 import click
 from crewai import Agent, Task, Crew, Process
-from crewai_tools import SerperDevTool, ScrapeWebsiteTool
+# Add Tavily Search tool
+from crewai_tools import SerperDevTool, ScrapeWebsiteTool, TavilySearchTool
 
 def create_university_research_crew(country: str, program: str):
     """
@@ -104,9 +105,9 @@ def create_university_research_crew(country: str, program: str):
         context=[research_task]
     )
     
-    # Task 3: Validate the report
+    # Task 3: Validate and finalize the report
     validation_task = Task(
-        description="""Validate the final curriculum report against these requirements:
+        description="""Review and validate the curriculum report against these requirements, then output the FINAL CURRICULUM REPORT:
         
         VALIDATION CHECKLIST:
         1. References Check:
@@ -124,11 +125,11 @@ def create_university_research_crew(country: str, program: str):
            - The proposal is based on evidence from the research
            - The proposal includes course structure and rationale
         
-        If ANY requirement is not met, provide specific feedback on what needs to be added or corrected.
-        If all requirements are met, approve the report with a summary of strengths.""",
+        If ANY requirement is not met, make the necessary corrections to the report.
+        
+        OUTPUT: Provide the complete, validated curriculum report - NOT a validation assessment, but the actual final curriculum report itself.""",
         agent=validator_agent,
-        expected_output="""A validation report stating whether the curriculum report meets all requirements,
-        with specific feedback on any deficiencies or confirmation of approval with highlighted strengths.""",
+        expected_output=f"""The complete, final curriculum report for {program} programs in {country} - a comprehensive 2000-3000 word document with all sections, proper citations, and validated content.""",
         context=[research_task, summarize_task]
     )
     
