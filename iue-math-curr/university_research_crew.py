@@ -55,9 +55,10 @@ def create_university_research_crew(country: str, program: str):
         backstory="""You are a meticulous quality assurance specialist with extensive experience in
         academic reporting. You ensure that all reports meet strict standards including proper referencing,
         comprehensive coverage of all sources, and actionable recommendations. You have a sharp eye for
-        missing information and inconsistencies.""",
+        missing information and inconsistencies. When you find deficiencies, you delegate tasks back to 
+        the appropriate team members to gather missing information or improve the report.""",
         verbose=True,
-        allow_delegation=False
+        allow_delegation=True
     )
     
     # Task 1: Research universities and programs
@@ -105,9 +106,9 @@ def create_university_research_crew(country: str, program: str):
         context=[research_task]
     )
     
-    # Task 3: Validate and finalize the report
+    # Task 3: Validate and improve the report through delegation
     validation_task = Task(
-        description="""Review and validate the curriculum report against these requirements, then output the FINAL CURRICULUM REPORT:
+        description="""Review the curriculum report against these requirements and delegate improvements if needed:
         
         VALIDATION CHECKLIST:
         1. References Check:
@@ -125,11 +126,14 @@ def create_university_research_crew(country: str, program: str):
            - The proposal is based on evidence from the research
            - The proposal includes course structure and rationale
         
-        If ANY requirement is not met, make the necessary corrections to the report.
+        If deficiencies are found:
+        - Delegate to the University Program Researcher to gather missing information
+        - Delegate to the Curriculum Summarizer to revise and improve sections
+        - Continue this process until all requirements are met
         
-        OUTPUT: Provide the complete, validated curriculum report - NOT a validation assessment, but the actual final curriculum report itself.""",
+        OUTPUT: The complete, validated curriculum report with all quality issues resolved.""",
         agent=validator_agent,
-        expected_output=f"""The complete, final curriculum report for {program} programs in {country} - a comprehensive 2000-3000 word document with all sections, proper citations, and validated content.""",
+        expected_output=f"""The final, complete curriculum report for {program} programs in {country} - a comprehensive 2000-3000 word document with all sections complete, proper citations, and all validation requirements satisfied.""",
         context=[research_task, summarize_task]
     )
     
