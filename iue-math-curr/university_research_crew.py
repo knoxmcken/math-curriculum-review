@@ -144,8 +144,8 @@ def create_university_research_crew(country: str, program: str):
 
 
 @click.command()
-@click.option('--country', default='United Kingdom', help='The country to research universities in.')
-@click.option('--program', default='BSc Mathematics', help='The program to research.')
+@click.option('-c', '--country', default='USA', help='The country to research universities in.')
+@click.option('-p', '--program', default='BSc in Mathematics', help='The program to research.')
 def main(country, program):
     """Main function to run the university research crew"""
     
