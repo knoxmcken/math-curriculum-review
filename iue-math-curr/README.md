@@ -1,1 +1,1 @@
-IUE BSc Mathematics Curriculum Review Project
+# IUE BSc Mathematics Curriculum Review Project
